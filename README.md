@@ -4,7 +4,7 @@ _A reactive microservice developed in Java._
 The hello microservice is developed in Java. It is invocable using the vert.x event bus, and handles:
 
 * messages on `hello` - replies with a _hello_ message
-* messages on `hello\chain` - invokes the next service of the chain and replies with the result + a _hello_ message. The invocation to the next service is protected using a circuit breaker.
+* messages on `hello/chain` - invokes the next service of the chain and replies with the result + a _hello_ message. The invocation to the next service is protected using a circuit breaker.
 
 The detailed instructions to run the Red Hat Reactive MSA demo, can be found at the following repository: https://github.com/redhat-reactive-msa/redhat-reactive-msa
 

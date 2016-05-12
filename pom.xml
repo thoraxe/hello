@@ -130,10 +130,6 @@
                       <tag>latest</tag>
                       <tag>${project.version}</tag>
                     </tags>
-                    <ports>
-                      <port>8080</port>
-                      <port>5701</port>
-                    </ports>
                     <workdir>/opt</workdir>
                     <entryPoint>
                       <exec>
@@ -171,11 +167,6 @@
                       </inline>
                     </assembly>
                   </build>
-                  <run>
-                    <ports>
-                      <port>http.port:8080</port>
-                    </ports>
-                  </run>
                 </image>
               </images>
             </configuration>
