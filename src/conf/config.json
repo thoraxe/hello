@@ -1,0 +1,8 @@
+{
+  "breaker": {
+    "maxFailures": 1,
+    "timeout": 2000,
+    "resetTimeout": 5000,
+    "fallbackOnFailure" : true
+  }
+}
